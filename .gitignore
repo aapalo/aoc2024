@@ -1,15 +1,15 @@
-# Ignore everything in rust folders ...
+### Ignore everything in rust folders ...
 #*/rust/*
 */rust/target
 */rust/C*
 
-# except the main file
-#!*/**/main.rs
+### ...except the main file
+!*/**/main.rs
 
-# Ignore jupyter checkpoints
+### Ignore jupyter checkpoints
 */.ipynb_checkpoints
 
-# Ignore puzzle inputs
+### Ignore puzzle inputs
 */input.txt
 #*/sample.txt
 
